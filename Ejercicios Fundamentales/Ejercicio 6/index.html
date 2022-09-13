@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Registrar un usuario</h1>
+    <form action="/formulario">
+        <label for="nombre">Nombre del usuario</label>
+        <br>
+        <input  id="nombre" type="text" name="nombre"/>
+        <br>
+        <label for="contraseña">Contraseña del usuario</label>
+        <br>
+        <input  id="contraseña" type="password" name="contraseña"/>
+        <br>
+        <label for="edad">Edad del usuario</label>
+        <br>
+        <input  id="edad" type="number" name="edad"/>
+        <br>
+        <label for="nacimiento">Fecha de nacimiento del usuario</label>
+        <br>
+        <input  id="nacimiento" type="date" name="fecha de nacimiento"/>
+        <br>
+        <label>Sexo del usuario</label>
+        <br>
+        <input id="hombre" type="radio" name="sexo"/>
+        <label for="hombre">Hombre</label>
+        <br>
+        <input  id="mujer" type="radio" name="sexo"/>
+        <label for="mujer">Mujer</label>
+        <br>
+        <input  id="no decir" type="radio" name="sexo"/>
+        <label for="no decir">Prefiero no decir</label>
+        <br>
+        <label for="pais">Pais de nacimiento del usuario</label><br>
+        <select name="pais" id="pais">
+            <option>Argentina</option>
+            <option>Brasil</option>
+            <option>Chile</option>
+            <option>Uruguay</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+</html>

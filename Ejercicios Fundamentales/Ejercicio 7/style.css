@@ -1,0 +1,12 @@
+body{
+    background-color: cornflowerblue;
+}
+h1, h2{
+    font-family: 'Combo', cursive;
+    text-align: center;
+}
+p{
+    font-family: 'Combo', cursive;
+    color: beige;
+    text-align: left;
+}

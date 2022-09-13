@@ -1,0 +1,54 @@
+h1{
+    color: teal;
+}
+
+strong{
+    color: brown;
+}
+
+span.destacado{
+    color: chocolate;
+}
+h2{
+    color: blue;
+}
+p a{
+    color: brown;
+}
+p em{
+    color: blue;
+}
+span.especial{
+    color: blueviolet;
+}
+table{
+    border-collapse: collapse;
+}
+caption{
+    visibility: hidden;
+}
+th, td{
+    border: solid 1px;
+    border-color: black;
+}
+th{
+    color: brown;
+}
+th.especial{
+    color: coral;
+}
+table strong{
+    color: coral;
+}
+tr{
+    color: lawngreen;
+}
+#adicional{
+    color: darkgoldenrod;
+}
+#especial{
+    color: darkorchid;
+}
+#adicional a{
+    color: darkgreen;
+}
