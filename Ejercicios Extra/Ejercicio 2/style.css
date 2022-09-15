@@ -1,0 +1,23 @@
+table{
+    border-collapse: collapse;
+}
+table, td, th{
+    border: 1px solid black;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+tr, td{
+    padding: 10px;
+}
+.columnas{
+    background-image: url(img/fondo_gris.gif);
+}
+.azul{
+    background-color: #E6F3FF;
+}
+.amarillo{
+    background-color: #FFFFCC;
+}

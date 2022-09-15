@@ -1,0 +1,14 @@
+body{
+    background-color: cadetblue;
+}
+
+ul.lista{
+    align-content: center;
+    color: red;
+}
+#lista2{
+    text-align: center;
+}
+a:hover{
+    color: azure;
+}
